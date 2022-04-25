@@ -1,0 +1,16 @@
+{
+	"osu! path": "",
+	"Skin path": "skin/",
+	"Beatmap path": "../demo/beatmaps/388036 Akiyama Uni - Kanpan Tasogare Shinbun/Akiyama Uni - Kanpan Tasogare Shinbun (09kami) [Insane].osu",
+	".osr path": "auto",
+	"Default skin path": "skin/",
+	"Output path": "video.mp4",
+	"Width": 1024,
+	"Height": 600,
+	"FPS": 30,
+	"Start time": 0,
+	"End time": -1,
+	"Video codec": "mjpeg",
+	"Process": 0,
+	"ffmpeg path": "ffmpeg"
+}
