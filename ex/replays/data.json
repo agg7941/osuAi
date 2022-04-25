@@ -1,0 +1,16 @@
+{
+	"osu! path": "/home/poi/Desktop/osu!",
+	"Skin path": "test/skin/",
+	"Beatmap path": "../beatmaps/348381 sasakureUK - Spider Thread Monopoly feat Hatsune Miku/sasakure.UK - Spider Thread Monopoly feat. Hatsune Miku (Mishima Yurara) [Milan-'s Hard].osu",
+	".osr path": "auto",
+	"Default skin path": "test/skin/",
+	"Output path": "./vid.mp4",
+	"Width": 1024,
+	"Height": 600,
+	"FPS": 50,
+	"Start time": 0,
+	"End time": -1,
+	"Video codec": "mp4v",
+	"Process": 0,
+	"ffmpeg path": "ffmpeg"
+}
