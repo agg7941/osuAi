@@ -1,0 +1,14 @@
+Starting train and predict. 2022-03-11 16:42:32.677087
+
+Default GPU: /device:GPU:0
+Creating local copies, if necessary...
+Loaded features for 664 files from ['giantsteps-tempo-dataset/audio/tempo_features.joblib'].
+We assume that we are estimating TEMPO. First feature shape: (40, 2584, 1)
+Loading ground truth...
+Loaded 398 training annotations from train.tsv.
+Loaded 132 validation annotations from val.tsv.
+Number of classes: 256
+Creating generators...
+Creating model...
+Run 0, vgg_like_in-40__256__1_out=256_filters-2_pool_shape-2__2_max-True_filter_shapes-1__5__1__3_dropout-0.1, params=9322
+None

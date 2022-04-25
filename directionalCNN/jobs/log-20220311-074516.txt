@@ -1,0 +1,189 @@
+Starting train and predict. 2022-03-11 07:45:16.319971
+
+Default GPU: /device:GPU:0
+Creating local copies, if necessary...
+Loaded features for 664 files from ['giantsteps-tempo-dataset/audio/tempo_features.joblib'].
+We assume that we are estimating TEMPO. First feature shape: (40, 2584, 1)
+Loading ground truth...
+Loaded 398 training annotations from train.tsv.
+Loaded 132 validation annotations from val.tsv.
+Number of classes: 256
+Creating generators...
+Creating model...
+Run 0, 2220226067096289728, params=33092
+None
+None
+lr=0.001, batch_size=1, epochs=5, augmenter=<function tempo_augmenter at 0x7ff62fd3d820>, model_name=2220226067096289728
+Run 0, 2220226067096289728, params=33092
+Run 1, 2220226067096289728, params=33092
+None
+None
+lr=0.001, batch_size=1, epochs=5, augmenter=<function tempo_augmenter at 0x7ff62fd3d820>, model_name=2220226067096289728
+Run 1, 2220226067096289728, params=33092
+Run 2, 2220226067096289728, params=33092
+None
+None
+lr=0.001, batch_size=1, epochs=5, augmenter=<function tempo_augmenter at 0x7ff62fd3d820>, model_name=2220226067096289728
+Run 2, 2220226067096289728, params=33092
+Run 3, 2220226067096289728, params=33092
+None
+None
+lr=0.001, batch_size=1, epochs=5, augmenter=<function tempo_augmenter at 0x7ff62fd3d820>, model_name=2220226067096289728
+Run 3, 2220226067096289728, params=33092
+Run 4, 2220226067096289728, params=33092
+None
+None
+lr=0.001, batch_size=1, epochs=5, augmenter=<function tempo_augmenter at 0x7ff62fd3d820>, model_name=2220226067096289728
+Run 4, 2220226067096289728, params=33092
+Run 0, 6135324123291240172, params=33092
+None
+None
+lr=0.001, batch_size=1, epochs=5, augmenter=<function tempo_augmenter at 0x7ff62fd3d820>, model_name=6135324123291240172
+Run 0, 6135324123291240172, params=33092
+Run 1, 6135324123291240172, params=33092
+None
+None
+lr=0.001, batch_size=1, epochs=5, augmenter=<function tempo_augmenter at 0x7ff62fd3d820>, model_name=6135324123291240172
+Run 1, 6135324123291240172, params=33092
+Run 2, 6135324123291240172, params=33092
+None
+None
+lr=0.001, batch_size=1, epochs=5, augmenter=<function tempo_augmenter at 0x7ff62fd3d820>, model_name=6135324123291240172
+Run 2, 6135324123291240172, params=33092
+Run 3, 6135324123291240172, params=33092
+None
+None
+lr=0.001, batch_size=1, epochs=5, augmenter=<function tempo_augmenter at 0x7ff62fd3d820>, model_name=6135324123291240172
+Run 3, 6135324123291240172, params=33092
+Run 4, 6135324123291240172, params=33092
+None
+None
+lr=0.001, batch_size=1, epochs=5, augmenter=<function tempo_augmenter at 0x7ff62fd3d820>, model_name=6135324123291240172
+Run 4, 6135324123291240172, params=33092
+Run 0, 6951690797635798622, params=33092
+None
+None
+lr=0.001, batch_size=1, epochs=5, augmenter=<function tempo_augmenter at 0x7ff62fd3d820>, model_name=6951690797635798622
+Run 0, 6951690797635798622, params=33092
+Run 1, 6951690797635798622, params=33092
+None
+None
+lr=0.001, batch_size=1, epochs=5, augmenter=<function tempo_augmenter at 0x7ff62fd3d820>, model_name=6951690797635798622
+Run 1, 6951690797635798622, params=33092
+Run 2, 6951690797635798622, params=33092
+None
+None
+lr=0.001, batch_size=1, epochs=5, augmenter=<function tempo_augmenter at 0x7ff62fd3d820>, model_name=6951690797635798622
+Run 2, 6951690797635798622, params=33092
+Run 3, 6951690797635798622, params=33092
+None
+None
+lr=0.001, batch_size=1, epochs=5, augmenter=<function tempo_augmenter at 0x7ff62fd3d820>, model_name=6951690797635798622
+Run 3, 6951690797635798622, params=33092
+Run 4, 6951690797635798622, params=33092
+None
+None
+lr=0.001, batch_size=1, epochs=5, augmenter=<function tempo_augmenter at 0x7ff62fd3d820>, model_name=6951690797635798622
+Run 4, 6951690797635798622, params=33092
+Run 0, 8106647613622226307, params=98696
+None
+None
+lr=0.001, batch_size=1, epochs=5, augmenter=<function tempo_augmenter at 0x7ff62fd3d820>, model_name=8106647613622226307
+Run 0, 8106647613622226307, params=98696
+Run 1, 8106647613622226307, params=98696
+None
+None
+lr=0.001, batch_size=1, epochs=5, augmenter=<function tempo_augmenter at 0x7ff62fd3d820>, model_name=8106647613622226307
+Run 1, 8106647613622226307, params=98696
+Run 2, 8106647613622226307, params=98696
+None
+None
+lr=0.001, batch_size=1, epochs=5, augmenter=<function tempo_augmenter at 0x7ff62fd3d820>, model_name=8106647613622226307
+Run 2, 8106647613622226307, params=98696
+Run 3, 8106647613622226307, params=98696
+None
+None
+lr=0.001, batch_size=1, epochs=5, augmenter=<function tempo_augmenter at 0x7ff62fd3d820>, model_name=8106647613622226307
+Run 3, 8106647613622226307, params=98696
+Run 4, 8106647613622226307, params=98696
+None
+None
+lr=0.001, batch_size=1, epochs=5, augmenter=<function tempo_augmenter at 0x7ff62fd3d820>, model_name=8106647613622226307
+Run 4, 8106647613622226307, params=98696
+Run 0, 7602205857837753080, params=98696
+None
+None
+lr=0.001, batch_size=1, epochs=5, augmenter=<function tempo_augmenter at 0x7ff62fd3d820>, model_name=7602205857837753080
+Run 0, 7602205857837753080, params=98696
+Run 1, 7602205857837753080, params=98696
+None
+None
+lr=0.001, batch_size=1, epochs=5, augmenter=<function tempo_augmenter at 0x7ff62fd3d820>, model_name=7602205857837753080
+Run 1, 7602205857837753080, params=98696
+Run 2, 7602205857837753080, params=98696
+None
+None
+lr=0.001, batch_size=1, epochs=5, augmenter=<function tempo_augmenter at 0x7ff62fd3d820>, model_name=7602205857837753080
+Run 2, 7602205857837753080, params=98696
+Run 3, 7602205857837753080, params=98696
+None
+None
+lr=0.001, batch_size=1, epochs=5, augmenter=<function tempo_augmenter at 0x7ff62fd3d820>, model_name=7602205857837753080
+Run 3, 7602205857837753080, params=98696
+Run 4, 7602205857837753080, params=98696
+None
+None
+lr=0.001, batch_size=1, epochs=5, augmenter=<function tempo_augmenter at 0x7ff62fd3d820>, model_name=7602205857837753080
+Run 4, 7602205857837753080, params=98696
+Run 0, 6561827348483576685, params=98696
+None
+None
+lr=0.001, batch_size=1, epochs=5, augmenter=<function tempo_augmenter at 0x7ff62fd3d820>, model_name=6561827348483576685
+Run 0, 6561827348483576685, params=98696
+Run 1, 6561827348483576685, params=98696
+None
+None
+lr=0.001, batch_size=1, epochs=5, augmenter=<function tempo_augmenter at 0x7ff62fd3d820>, model_name=6561827348483576685
+Run 1, 6561827348483576685, params=98696
+Run 2, 6561827348483576685, params=98696
+None
+None
+lr=0.001, batch_size=1, epochs=5, augmenter=<function tempo_augmenter at 0x7ff62fd3d820>, model_name=6561827348483576685
+Run 2, 6561827348483576685, params=98696
+Run 3, 6561827348483576685, params=98696
+None
+None
+lr=0.001, batch_size=1, epochs=5, augmenter=<function tempo_augmenter at 0x7ff62fd3d820>, model_name=6561827348483576685
+Run 3, 6561827348483576685, params=98696
+Run 4, 6561827348483576685, params=98696
+None
+None
+lr=0.001, batch_size=1, epochs=5, augmenter=<function tempo_augmenter at 0x7ff62fd3d820>, model_name=6561827348483576685
+Run 4, 6561827348483576685, params=98696
+Run 0, 1687788181956228633, params=328208
+None
+None
+lr=0.001, batch_size=1, epochs=5, augmenter=<function tempo_augmenter at 0x7ff62fd3d820>, model_name=1687788181956228633
+Run 0, 1687788181956228633, params=328208
+Run 1, 1687788181956228633, params=328208
+None
+None
+lr=0.001, batch_size=1, epochs=5, augmenter=<function tempo_augmenter at 0x7ff62fd3d820>, model_name=1687788181956228633
+Run 1, 1687788181956228633, params=328208
+Run 2, 1687788181956228633, params=328208
+None
+None
+lr=0.001, batch_size=1, epochs=5, augmenter=<function tempo_augmenter at 0x7ff62fd3d820>, model_name=1687788181956228633
+Run 2, 1687788181956228633, params=328208
+Run 3, 1687788181956228633, params=328208
+None
+None
+lr=0.001, batch_size=1, epochs=5, augmenter=<function tempo_augmenter at 0x7ff62fd3d820>, model_name=1687788181956228633
+Run 3, 1687788181956228633, params=328208
+Run 4, 1687788181956228633, params=328208
+None
+None
+lr=0.001, batch_size=1, epochs=5, augmenter=<function tempo_augmenter at 0x7ff62fd3d820>, model_name=1687788181956228633
+Run 4, 1687788181956228633, params=328208
+Run 0, 7740850689950504652, params=328208
+None

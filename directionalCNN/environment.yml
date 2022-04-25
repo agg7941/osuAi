@@ -1,0 +1,12 @@
+name: directional_cnn
+channels:
+  - anaconda
+  - pytorch
+  - conda-forge
+dependencies:
+  - jupyter
+  - pytest
+  - tensorflow-gpu>=2.7.0
+  - librosa
+  - scikit-learn
+  - h5py

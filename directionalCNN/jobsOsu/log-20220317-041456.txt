@@ -1,0 +1,2 @@
+Trained on train_file
+runs=5, lr=0.001, batch_size=32, epochs=5000, patience=150, augmenter=None, normalizer=None

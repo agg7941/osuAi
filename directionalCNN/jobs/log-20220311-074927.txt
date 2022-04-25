@@ -1,0 +1,102 @@
+Starting train and predict. 2022-03-11 07:49:27.916685
+
+Default GPU: /device:GPU:0
+Creating local copies, if necessary...
+Loaded features for 664 files from ['giantsteps-tempo-dataset/audio/tempo_features.joblib'].
+We assume that we are estimating TEMPO. First feature shape: (40, 2584, 1)
+Loading ground truth...
+Loaded 398 training annotations from train.tsv.
+Loaded 132 validation annotations from val.tsv.
+Number of classes: 256
+Creating generators...
+Creating model...
+Run 0, 7023343314007555504, params=33092
+None
+None
+lr=0.001, batch_size=1, epochs=5, augmenter=<function tempo_augmenter at 0x7f672ec6c670>, model_name=7023343314007555504
+Run 0, 7023343314007555504, params=33092
+Run 0, 6795305114547840087, params=33092
+None
+None
+lr=0.001, batch_size=1, epochs=5, augmenter=<function tempo_augmenter at 0x7f672ec6c670>, model_name=6795305114547840087
+Run 0, 6795305114547840087, params=33092
+Run 0, 1259128145768976064, params=33092
+None
+None
+lr=0.001, batch_size=1, epochs=5, augmenter=<function tempo_augmenter at 0x7f672ec6c670>, model_name=1259128145768976064
+Run 0, 1259128145768976064, params=33092
+Run 0, 2448084554464119975, params=98696
+None
+None
+lr=0.001, batch_size=1, epochs=5, augmenter=<function tempo_augmenter at 0x7f672ec6c670>, model_name=2448084554464119975
+Run 0, 2448084554464119975, params=98696
+Run 0, 6225892541813771857, params=98696
+None
+None
+lr=0.001, batch_size=1, epochs=5, augmenter=<function tempo_augmenter at 0x7f672ec6c670>, model_name=6225892541813771857
+Run 0, 6225892541813771857, params=98696
+Run 0, 2345407826855069514, params=98696
+None
+None
+lr=0.001, batch_size=1, epochs=5, augmenter=<function tempo_augmenter at 0x7f672ec6c670>, model_name=2345407826855069514
+Run 0, 2345407826855069514, params=98696
+Run 0, 8661628710915941604, params=328208
+None
+None
+lr=0.001, batch_size=1, epochs=5, augmenter=<function tempo_augmenter at 0x7f672ec6c670>, model_name=8661628710915941604
+Run 0, 8661628710915941604, params=328208
+Run 0, 3173113104397946621, params=328208
+None
+None
+lr=0.001, batch_size=1, epochs=5, augmenter=<function tempo_augmenter at 0x7f672ec6c670>, model_name=3173113104397946621
+Run 0, 3173113104397946621, params=328208
+Run 0, 693689335898218061, params=328208
+None
+None
+lr=0.001, batch_size=1, epochs=5, augmenter=<function tempo_augmenter at 0x7f672ec6c670>, model_name=693689335898218061
+Run 0, 693689335898218061, params=328208
+Run 0, 3033005609536847825, params=688792
+None
+None
+lr=0.001, batch_size=1, epochs=5, augmenter=<function tempo_augmenter at 0x7f672ec6c670>, model_name=3033005609536847825
+Run 0, 3033005609536847825, params=688792
+Run 0, 2376221953640226397, params=688792
+None
+None
+lr=0.001, batch_size=1, epochs=5, augmenter=<function tempo_augmenter at 0x7f672ec6c670>, model_name=2376221953640226397
+Run 0, 2376221953640226397, params=688792
+Run 0, 3664902477386134799, params=688792
+None
+None
+lr=0.001, batch_size=1, epochs=5, augmenter=<function tempo_augmenter at 0x7f672ec6c670>, model_name=3664902477386134799
+Run 0, 3664902477386134799, params=688792
+Run 0, 4765994447598502454, params=1180448
+None
+None
+lr=0.001, batch_size=1, epochs=5, augmenter=<function tempo_augmenter at 0x7f672ec6c670>, model_name=4765994447598502454
+Run 0, 4765994447598502454, params=1180448
+Run 0, 7795697966241644333, params=1180448
+None
+None
+lr=0.001, batch_size=1, epochs=5, augmenter=<function tempo_augmenter at 0x7f672ec6c670>, model_name=7795697966241644333
+Run 0, 7795697966241644333, params=1180448
+Run 0, 7032012078592718393, params=1180448
+None
+None
+lr=0.001, batch_size=1, epochs=5, augmenter=<function tempo_augmenter at 0x7f672ec6c670>, model_name=7032012078592718393
+Run 0, 7032012078592718393, params=1180448
+Run 0, 6845478351123123209, params=2556976
+None
+None
+lr=0.001, batch_size=1, epochs=5, augmenter=<function tempo_augmenter at 0x7f672ec6c670>, model_name=6845478351123123209
+Run 0, 6845478351123123209, params=2556976
+Run 0, 6374389205973931498, params=2556976
+None
+None
+lr=0.001, batch_size=1, epochs=5, augmenter=<function tempo_augmenter at 0x7f672ec6c670>, model_name=6374389205973931498
+Run 0, 6374389205973931498, params=2556976
+Run 0, 334472438349493153, params=2556976
+None
+None
+lr=0.001, batch_size=1, epochs=5, augmenter=<function tempo_augmenter at 0x7f672ec6c670>, model_name=334472438349493153
+Run 0, 334472438349493153, params=2556976

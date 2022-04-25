@@ -1,0 +1,204 @@
+Starting train and predict. 2022-03-18 00:33:50.659435
+
+Default GPU: /device:GPU:0
+Creating local copies, if necessary...
+Loaded features for 1792 files from ['tempo_features.joblib'].
+We assume that we are estimating TEMPO. First feature shape: (40, 501, 1)
+Loading ground truth...
+Loaded 1075 training annotations from train.tsv.
+Loaded 358 validation annotations from val.tsv.
+Number of classes: 256
+Creating generators...
+Creating model...
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-1_short_shape-3__1_long_shape-40__1_dropout-0.1_run=0.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-1_short_shape-3__1_long_shape-40__1_dropout-0.1_run=1.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-1_short_shape-3__1_long_shape-40__1_dropout-0.1_run=2.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-1_short_shape-3__1_long_shape-40__1_dropout-0.1_run=3.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-1_short_shape-3__1_long_shape-40__1_dropout-0.1_run=4.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-1_short_shape-3__1_long_shape-40__1_dropout-0.3_run=0.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-1_short_shape-3__1_long_shape-40__1_dropout-0.3_run=1.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-1_short_shape-3__1_long_shape-40__1_dropout-0.3_run=2.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-1_short_shape-3__1_long_shape-40__1_dropout-0.3_run=3.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-1_short_shape-3__1_long_shape-40__1_dropout-0.3_run=4.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-1_short_shape-3__1_long_shape-40__1_dropout-0.5_run=0.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-1_short_shape-3__1_long_shape-40__1_dropout-0.5_run=1.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-1_short_shape-3__1_long_shape-40__1_dropout-0.5_run=2.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-1_short_shape-3__1_long_shape-40__1_dropout-0.5_run=3.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-1_short_shape-3__1_long_shape-40__1_dropout-0.5_run=4.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-2_short_shape-3__1_long_shape-40__1_dropout-0.1_run=0.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-2_short_shape-3__1_long_shape-40__1_dropout-0.1_run=1.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-2_short_shape-3__1_long_shape-40__1_dropout-0.1_run=2.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-2_short_shape-3__1_long_shape-40__1_dropout-0.1_run=3.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-2_short_shape-3__1_long_shape-40__1_dropout-0.1_run=4.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-2_short_shape-3__1_long_shape-40__1_dropout-0.3_run=0.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-2_short_shape-3__1_long_shape-40__1_dropout-0.3_run=1.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-2_short_shape-3__1_long_shape-40__1_dropout-0.3_run=2.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-2_short_shape-3__1_long_shape-40__1_dropout-0.3_run=3.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-2_short_shape-3__1_long_shape-40__1_dropout-0.3_run=4.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-2_short_shape-3__1_long_shape-40__1_dropout-0.5_run=0.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-2_short_shape-3__1_long_shape-40__1_dropout-0.5_run=1.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-2_short_shape-3__1_long_shape-40__1_dropout-0.5_run=2.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-2_short_shape-3__1_long_shape-40__1_dropout-0.5_run=3.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-2_short_shape-3__1_long_shape-40__1_dropout-0.5_run=4.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-4_short_shape-3__1_long_shape-40__1_dropout-0.1_run=0.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-4_short_shape-3__1_long_shape-40__1_dropout-0.1_run=1.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-4_short_shape-3__1_long_shape-40__1_dropout-0.1_run=2.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-4_short_shape-3__1_long_shape-40__1_dropout-0.1_run=3.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-4_short_shape-3__1_long_shape-40__1_dropout-0.1_run=4.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-4_short_shape-3__1_long_shape-40__1_dropout-0.3_run=0.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-4_short_shape-3__1_long_shape-40__1_dropout-0.3_run=1.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-4_short_shape-3__1_long_shape-40__1_dropout-0.3_run=2.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-4_short_shape-3__1_long_shape-40__1_dropout-0.3_run=3.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-4_short_shape-3__1_long_shape-40__1_dropout-0.3_run=4.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-4_short_shape-3__1_long_shape-40__1_dropout-0.5_run=0.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-4_short_shape-3__1_long_shape-40__1_dropout-0.5_run=1.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-4_short_shape-3__1_long_shape-40__1_dropout-0.5_run=2.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-4_short_shape-3__1_long_shape-40__1_dropout-0.5_run=3.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-4_short_shape-3__1_long_shape-40__1_dropout-0.5_run=4.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-6_short_shape-3__1_long_shape-40__1_dropout-0.1_run=0.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-6_short_shape-3__1_long_shape-40__1_dropout-0.1_run=1.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-6_short_shape-3__1_long_shape-40__1_dropout-0.1_run=2.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-6_short_shape-3__1_long_shape-40__1_dropout-0.1_run=3.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-6_short_shape-3__1_long_shape-40__1_dropout-0.1_run=4.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-6_short_shape-3__1_long_shape-40__1_dropout-0.3_run=0.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-6_short_shape-3__1_long_shape-40__1_dropout-0.3_run=1.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-6_short_shape-3__1_long_shape-40__1_dropout-0.3_run=2.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-6_short_shape-3__1_long_shape-40__1_dropout-0.3_run=3.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-6_short_shape-3__1_long_shape-40__1_dropout-0.3_run=4.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-6_short_shape-3__1_long_shape-40__1_dropout-0.5_run=0.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-6_short_shape-3__1_long_shape-40__1_dropout-0.5_run=1.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-6_short_shape-3__1_long_shape-40__1_dropout-0.5_run=2.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-6_short_shape-3__1_long_shape-40__1_dropout-0.5_run=3.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-6_short_shape-3__1_long_shape-40__1_dropout-0.5_run=4.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-8_short_shape-3__1_long_shape-40__1_dropout-0.1_run=0.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-8_short_shape-3__1_long_shape-40__1_dropout-0.1_run=1.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-8_short_shape-3__1_long_shape-40__1_dropout-0.1_run=2.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-8_short_shape-3__1_long_shape-40__1_dropout-0.1_run=3.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-8_short_shape-3__1_long_shape-40__1_dropout-0.1_run=4.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-8_short_shape-3__1_long_shape-40__1_dropout-0.3_run=0.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-8_short_shape-3__1_long_shape-40__1_dropout-0.3_run=1.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-8_short_shape-3__1_long_shape-40__1_dropout-0.3_run=2.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-8_short_shape-3__1_long_shape-40__1_dropout-0.3_run=3.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-8_short_shape-3__1_long_shape-40__1_dropout-0.3_run=4.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-8_short_shape-3__1_long_shape-40__1_dropout-0.5_run=0.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-8_short_shape-3__1_long_shape-40__1_dropout-0.5_run=1.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-8_short_shape-3__1_long_shape-40__1_dropout-0.5_run=2.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-8_short_shape-3__1_long_shape-40__1_dropout-0.5_run=3.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-8_short_shape-3__1_long_shape-40__1_dropout-0.5_run=4.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-12_short_shape-3__1_long_shape-40__1_dropout-0.1_run=0.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-12_short_shape-3__1_long_shape-40__1_dropout-0.1_run=1.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-12_short_shape-3__1_long_shape-40__1_dropout-0.1_run=2.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-12_short_shape-3__1_long_shape-40__1_dropout-0.1_run=3.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-12_short_shape-3__1_long_shape-40__1_dropout-0.1_run=4.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-12_short_shape-3__1_long_shape-40__1_dropout-0.3_run=0.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-12_short_shape-3__1_long_shape-40__1_dropout-0.3_run=1.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-12_short_shape-3__1_long_shape-40__1_dropout-0.3_run=2.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-12_short_shape-3__1_long_shape-40__1_dropout-0.3_run=3.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-12_short_shape-3__1_long_shape-40__1_dropout-0.3_run=4.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-12_short_shape-3__1_long_shape-40__1_dropout-0.5_run=0.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-12_short_shape-3__1_long_shape-40__1_dropout-0.5_run=1.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-12_short_shape-3__1_long_shape-40__1_dropout-0.5_run=2.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-12_short_shape-3__1_long_shape-40__1_dropout-0.5_run=3.h5 already exists. Skipping training.
+Model file ./modelsOsu/model_shallow_key_in-40__256__1_out-256_filters-12_short_shape-3__1_long_shape-40__1_dropout-0.5_run=4.h5 already exists. Skipping training.
+Run 0, vgg_like_in-40__256__1_out-256_filters-1_pool_shape-2__2_max-True_filter_shapes-5__5__3__3_dropout-0.1, params=7134
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-1_pool_shape-2__2_max-True_filter_shapes-5__5__3__3_dropout-0.1
+Run 0, vgg_like_in-40__256__1_out-256_filters-1_pool_shape-2__2_max-True_filter_shapes-5__5__3__3_dropout-0.1, params=7134
+Run 1, vgg_like_in-40__256__1_out-256_filters-1_pool_shape-2__2_max-True_filter_shapes-5__5__3__3_dropout-0.1, params=7134
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-1_pool_shape-2__2_max-True_filter_shapes-5__5__3__3_dropout-0.1
+Run 1, vgg_like_in-40__256__1_out-256_filters-1_pool_shape-2__2_max-True_filter_shapes-5__5__3__3_dropout-0.1, params=7134
+Run 2, vgg_like_in-40__256__1_out-256_filters-1_pool_shape-2__2_max-True_filter_shapes-5__5__3__3_dropout-0.1, params=7134
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-1_pool_shape-2__2_max-True_filter_shapes-5__5__3__3_dropout-0.1
+Run 2, vgg_like_in-40__256__1_out-256_filters-1_pool_shape-2__2_max-True_filter_shapes-5__5__3__3_dropout-0.1, params=7134
+Run 3, vgg_like_in-40__256__1_out-256_filters-1_pool_shape-2__2_max-True_filter_shapes-5__5__3__3_dropout-0.1, params=7134
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-1_pool_shape-2__2_max-True_filter_shapes-5__5__3__3_dropout-0.1
+Run 3, vgg_like_in-40__256__1_out-256_filters-1_pool_shape-2__2_max-True_filter_shapes-5__5__3__3_dropout-0.1, params=7134
+Run 4, vgg_like_in-40__256__1_out-256_filters-1_pool_shape-2__2_max-True_filter_shapes-5__5__3__3_dropout-0.1, params=7134
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-1_pool_shape-2__2_max-True_filter_shapes-5__5__3__3_dropout-0.1
+Run 4, vgg_like_in-40__256__1_out-256_filters-1_pool_shape-2__2_max-True_filter_shapes-5__5__3__3_dropout-0.1, params=7134
+Run 0, vgg_like_in-40__256__1_out-256_filters-1_pool_shape-2__2_max-True_filter_shapes-5__5__3__3_dropout-0.3, params=7134
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-1_pool_shape-2__2_max-True_filter_shapes-5__5__3__3_dropout-0.3
+Run 0, vgg_like_in-40__256__1_out-256_filters-1_pool_shape-2__2_max-True_filter_shapes-5__5__3__3_dropout-0.3, params=7134
+Run 1, vgg_like_in-40__256__1_out-256_filters-1_pool_shape-2__2_max-True_filter_shapes-5__5__3__3_dropout-0.3, params=7134
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-1_pool_shape-2__2_max-True_filter_shapes-5__5__3__3_dropout-0.3
+Run 1, vgg_like_in-40__256__1_out-256_filters-1_pool_shape-2__2_max-True_filter_shapes-5__5__3__3_dropout-0.3, params=7134
+Run 2, vgg_like_in-40__256__1_out-256_filters-1_pool_shape-2__2_max-True_filter_shapes-5__5__3__3_dropout-0.3, params=7134
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-1_pool_shape-2__2_max-True_filter_shapes-5__5__3__3_dropout-0.3
+Run 2, vgg_like_in-40__256__1_out-256_filters-1_pool_shape-2__2_max-True_filter_shapes-5__5__3__3_dropout-0.3, params=7134
+Run 3, vgg_like_in-40__256__1_out-256_filters-1_pool_shape-2__2_max-True_filter_shapes-5__5__3__3_dropout-0.3, params=7134
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-1_pool_shape-2__2_max-True_filter_shapes-5__5__3__3_dropout-0.3
+Run 3, vgg_like_in-40__256__1_out-256_filters-1_pool_shape-2__2_max-True_filter_shapes-5__5__3__3_dropout-0.3, params=7134
+Run 4, vgg_like_in-40__256__1_out-256_filters-1_pool_shape-2__2_max-True_filter_shapes-5__5__3__3_dropout-0.3, params=7134
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-1_pool_shape-2__2_max-True_filter_shapes-5__5__3__3_dropout-0.3
+Run 4, vgg_like_in-40__256__1_out-256_filters-1_pool_shape-2__2_max-True_filter_shapes-5__5__3__3_dropout-0.3, params=7134
+Run 0, vgg_like_in-40__256__1_out-256_filters-1_pool_shape-2__2_max-True_filter_shapes-5__5__3__3_dropout-0.5, params=7134
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-1_pool_shape-2__2_max-True_filter_shapes-5__5__3__3_dropout-0.5
+Run 0, vgg_like_in-40__256__1_out-256_filters-1_pool_shape-2__2_max-True_filter_shapes-5__5__3__3_dropout-0.5, params=7134
+Run 1, vgg_like_in-40__256__1_out-256_filters-1_pool_shape-2__2_max-True_filter_shapes-5__5__3__3_dropout-0.5, params=7134
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-1_pool_shape-2__2_max-True_filter_shapes-5__5__3__3_dropout-0.5
+Run 1, vgg_like_in-40__256__1_out-256_filters-1_pool_shape-2__2_max-True_filter_shapes-5__5__3__3_dropout-0.5, params=7134
+Run 2, vgg_like_in-40__256__1_out-256_filters-1_pool_shape-2__2_max-True_filter_shapes-5__5__3__3_dropout-0.5, params=7134
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-1_pool_shape-2__2_max-True_filter_shapes-5__5__3__3_dropout-0.5
+Run 2, vgg_like_in-40__256__1_out-256_filters-1_pool_shape-2__2_max-True_filter_shapes-5__5__3__3_dropout-0.5, params=7134
+Run 3, vgg_like_in-40__256__1_out-256_filters-1_pool_shape-2__2_max-True_filter_shapes-5__5__3__3_dropout-0.5, params=7134
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-1_pool_shape-2__2_max-True_filter_shapes-5__5__3__3_dropout-0.5
+Run 3, vgg_like_in-40__256__1_out-256_filters-1_pool_shape-2__2_max-True_filter_shapes-5__5__3__3_dropout-0.5, params=7134
+Run 4, vgg_like_in-40__256__1_out-256_filters-1_pool_shape-2__2_max-True_filter_shapes-5__5__3__3_dropout-0.5, params=7134
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-1_pool_shape-2__2_max-True_filter_shapes-5__5__3__3_dropout-0.5
+Run 4, vgg_like_in-40__256__1_out-256_filters-1_pool_shape-2__2_max-True_filter_shapes-5__5__3__3_dropout-0.5, params=7134
+Run 0, vgg_like_in-40__256__1_out-256_filters-2_pool_shape-2__2_max-True_filter_shapes-5__5__3__3_dropout-0.1, params=23082
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-2_pool_shape-2__2_max-True_filter_shapes-5__5__3__3_dropout-0.1
+Run 0, vgg_like_in-40__256__1_out-256_filters-2_pool_shape-2__2_max-True_filter_shapes-5__5__3__3_dropout-0.1, params=23082
+Run 1, vgg_like_in-40__256__1_out-256_filters-2_pool_shape-2__2_max-True_filter_shapes-5__5__3__3_dropout-0.1, params=23082
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-2_pool_shape-2__2_max-True_filter_shapes-5__5__3__3_dropout-0.1
+Run 1, vgg_like_in-40__256__1_out-256_filters-2_pool_shape-2__2_max-True_filter_shapes-5__5__3__3_dropout-0.1, params=23082
+Run 2, vgg_like_in-40__256__1_out-256_filters-2_pool_shape-2__2_max-True_filter_shapes-5__5__3__3_dropout-0.1, params=23082
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-2_pool_shape-2__2_max-True_filter_shapes-5__5__3__3_dropout-0.1
+Run 2, vgg_like_in-40__256__1_out-256_filters-2_pool_shape-2__2_max-True_filter_shapes-5__5__3__3_dropout-0.1, params=23082
+Run 3, vgg_like_in-40__256__1_out-256_filters-2_pool_shape-2__2_max-True_filter_shapes-5__5__3__3_dropout-0.1, params=23082
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-2_pool_shape-2__2_max-True_filter_shapes-5__5__3__3_dropout-0.1
+Run 3, vgg_like_in-40__256__1_out-256_filters-2_pool_shape-2__2_max-True_filter_shapes-5__5__3__3_dropout-0.1, params=23082
+Run 4, vgg_like_in-40__256__1_out-256_filters-2_pool_shape-2__2_max-True_filter_shapes-5__5__3__3_dropout-0.1, params=23082
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-2_pool_shape-2__2_max-True_filter_shapes-5__5__3__3_dropout-0.1
+Run 4, vgg_like_in-40__256__1_out-256_filters-2_pool_shape-2__2_max-True_filter_shapes-5__5__3__3_dropout-0.1, params=23082
+Run 0, vgg_like_in-40__256__1_out-256_filters-2_pool_shape-2__2_max-True_filter_shapes-5__5__3__3_dropout-0.3, params=23082
+None

@@ -1,0 +1,29 @@
+Starting train and predict. 2022-03-11 08:02:30.217924
+
+Default GPU: /device:GPU:0
+Creating local copies, if necessary...
+Loaded features for 664 files from ['giantsteps-tempo-dataset/audio/tempo_features.joblib'].
+We assume that we are estimating TEMPO. First feature shape: (40, 2584, 1)
+Loading ground truth...
+Loaded 398 training annotations from train.tsv.
+Loaded 132 validation annotations from val.tsv.
+Number of classes: 256
+Creating generators...
+Creating model...
+Run 0, shallow_tempo_in-40__256__1_out-256_filters-1_short_shape-1__3_long_shape-1__256_dropout-0.1, params=33092
+None
+None
+lr=0.001, batch_size=1, epochs=5, augmenter=<function tempo_augmenter at 0x7fa561be6700>, model_name=shallow_tempo_in-40__256__1_out-256_filters-1_short_shape-1__3_long_shape-1__256_dropout-0.1
+Run 0, shallow_tempo_in-40__256__1_out-256_filters-1_short_shape-1__3_long_shape-1__256_dropout-0.1, params=33092
+Run 0, shallow_tempo_in-40__256__1_out-256_filters-1_short_shape-1__3_long_shape-1__256_dropout-0.3, params=33092
+None
+None
+lr=0.001, batch_size=1, epochs=5, augmenter=<function tempo_augmenter at 0x7fa561be6700>, model_name=shallow_tempo_in-40__256__1_out-256_filters-1_short_shape-1__3_long_shape-1__256_dropout-0.3
+Run 0, shallow_tempo_in-40__256__1_out-256_filters-1_short_shape-1__3_long_shape-1__256_dropout-0.3, params=33092
+Run 0, shallow_tempo_in-40__256__1_out-256_filters-1_short_shape-1__3_long_shape-1__256_dropout-0.5, params=33092
+None
+None
+lr=0.001, batch_size=1, epochs=5, augmenter=<function tempo_augmenter at 0x7fa561be6700>, model_name=shallow_tempo_in-40__256__1_out-256_filters-1_short_shape-1__3_long_shape-1__256_dropout-0.5
+Run 0, shallow_tempo_in-40__256__1_out-256_filters-1_short_shape-1__3_long_shape-1__256_dropout-0.5, params=33092
+Run 0, shallow_tempo_in-40__256__1_out-256_filters-2_short_shape-1__3_long_shape-1__256_dropout-0.1, params=98696
+None

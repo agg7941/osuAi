@@ -1,0 +1,104 @@
+Starting train and predict. 2022-03-11 08:27:04.671646
+
+Default GPU: /device:GPU:0
+Creating local copies, if necessary...
+Loaded features for 664 files from ['giantsteps-tempo-dataset/audio/tempo_features.joblib'].
+We assume that we are estimating TEMPO. First feature shape: (40, 2584, 1)
+Loading ground truth...
+Loaded 398 training annotations from train.tsv.
+Loaded 132 validation annotations from val.tsv.
+Number of classes: 256
+Creating generators...
+Creating model...
+Run 0, shallow_tempo_in-40__256__1_out-256_filters-1_short_shape-1__3_long_shape-1__256_dropout-0.1, params=33092
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7fe3e3ba4700>, model_name=shallow_tempo_in-40__256__1_out-256_filters-1_short_shape-1__3_long_shape-1__256_dropout-0.1
+Run 0, shallow_tempo_in-40__256__1_out-256_filters-1_short_shape-1__3_long_shape-1__256_dropout-0.1, params=33092
+Run 0, shallow_tempo_in-40__256__1_out-256_filters-1_short_shape-1__3_long_shape-1__256_dropout-0.3, params=33092
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7fe3e3ba4700>, model_name=shallow_tempo_in-40__256__1_out-256_filters-1_short_shape-1__3_long_shape-1__256_dropout-0.3
+Run 0, shallow_tempo_in-40__256__1_out-256_filters-1_short_shape-1__3_long_shape-1__256_dropout-0.3, params=33092
+Run 0, shallow_tempo_in-40__256__1_out-256_filters-1_short_shape-1__3_long_shape-1__256_dropout-0.5, params=33092
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7fe3e3ba4700>, model_name=shallow_tempo_in-40__256__1_out-256_filters-1_short_shape-1__3_long_shape-1__256_dropout-0.5
+Run 0, shallow_tempo_in-40__256__1_out-256_filters-1_short_shape-1__3_long_shape-1__256_dropout-0.5, params=33092
+Run 0, shallow_tempo_in-40__256__1_out-256_filters-2_short_shape-1__3_long_shape-1__256_dropout-0.1, params=98696
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7fe3e3ba4700>, model_name=shallow_tempo_in-40__256__1_out-256_filters-2_short_shape-1__3_long_shape-1__256_dropout-0.1
+Run 0, shallow_tempo_in-40__256__1_out-256_filters-2_short_shape-1__3_long_shape-1__256_dropout-0.1, params=98696
+Run 0, shallow_tempo_in-40__256__1_out-256_filters-2_short_shape-1__3_long_shape-1__256_dropout-0.3, params=98696
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7fe3e3ba4700>, model_name=shallow_tempo_in-40__256__1_out-256_filters-2_short_shape-1__3_long_shape-1__256_dropout-0.3
+Run 0, shallow_tempo_in-40__256__1_out-256_filters-2_short_shape-1__3_long_shape-1__256_dropout-0.3, params=98696
+Run 0, shallow_tempo_in-40__256__1_out-256_filters-2_short_shape-1__3_long_shape-1__256_dropout-0.5, params=98696
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7fe3e3ba4700>, model_name=shallow_tempo_in-40__256__1_out-256_filters-2_short_shape-1__3_long_shape-1__256_dropout-0.5
+Run 0, shallow_tempo_in-40__256__1_out-256_filters-2_short_shape-1__3_long_shape-1__256_dropout-0.5, params=98696
+Run 0, shallow_tempo_in-40__256__1_out-256_filters-4_short_shape-1__3_long_shape-1__256_dropout-0.1, params=328208
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7fe3e3ba4700>, model_name=shallow_tempo_in-40__256__1_out-256_filters-4_short_shape-1__3_long_shape-1__256_dropout-0.1
+Run 0, shallow_tempo_in-40__256__1_out-256_filters-4_short_shape-1__3_long_shape-1__256_dropout-0.1, params=328208
+Run 0, shallow_tempo_in-40__256__1_out-256_filters-4_short_shape-1__3_long_shape-1__256_dropout-0.3, params=328208
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7fe3e3ba4700>, model_name=shallow_tempo_in-40__256__1_out-256_filters-4_short_shape-1__3_long_shape-1__256_dropout-0.3
+Run 0, shallow_tempo_in-40__256__1_out-256_filters-4_short_shape-1__3_long_shape-1__256_dropout-0.3, params=328208
+Run 0, shallow_tempo_in-40__256__1_out-256_filters-4_short_shape-1__3_long_shape-1__256_dropout-0.5, params=328208
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7fe3e3ba4700>, model_name=shallow_tempo_in-40__256__1_out-256_filters-4_short_shape-1__3_long_shape-1__256_dropout-0.5
+Run 0, shallow_tempo_in-40__256__1_out-256_filters-4_short_shape-1__3_long_shape-1__256_dropout-0.5, params=328208
+Run 0, shallow_tempo_in-40__256__1_out-256_filters-6_short_shape-1__3_long_shape-1__256_dropout-0.1, params=688792
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7fe3e3ba4700>, model_name=shallow_tempo_in-40__256__1_out-256_filters-6_short_shape-1__3_long_shape-1__256_dropout-0.1
+Run 0, shallow_tempo_in-40__256__1_out-256_filters-6_short_shape-1__3_long_shape-1__256_dropout-0.1, params=688792
+Run 0, shallow_tempo_in-40__256__1_out-256_filters-6_short_shape-1__3_long_shape-1__256_dropout-0.3, params=688792
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7fe3e3ba4700>, model_name=shallow_tempo_in-40__256__1_out-256_filters-6_short_shape-1__3_long_shape-1__256_dropout-0.3
+Run 0, shallow_tempo_in-40__256__1_out-256_filters-6_short_shape-1__3_long_shape-1__256_dropout-0.3, params=688792
+Run 0, shallow_tempo_in-40__256__1_out-256_filters-6_short_shape-1__3_long_shape-1__256_dropout-0.5, params=688792
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7fe3e3ba4700>, model_name=shallow_tempo_in-40__256__1_out-256_filters-6_short_shape-1__3_long_shape-1__256_dropout-0.5
+Run 0, shallow_tempo_in-40__256__1_out-256_filters-6_short_shape-1__3_long_shape-1__256_dropout-0.5, params=688792
+Run 0, shallow_tempo_in-40__256__1_out-256_filters-8_short_shape-1__3_long_shape-1__256_dropout-0.1, params=1180448
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7fe3e3ba4700>, model_name=shallow_tempo_in-40__256__1_out-256_filters-8_short_shape-1__3_long_shape-1__256_dropout-0.1
+Run 0, shallow_tempo_in-40__256__1_out-256_filters-8_short_shape-1__3_long_shape-1__256_dropout-0.1, params=1180448
+Run 0, shallow_tempo_in-40__256__1_out-256_filters-8_short_shape-1__3_long_shape-1__256_dropout-0.3, params=1180448
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7fe3e3ba4700>, model_name=shallow_tempo_in-40__256__1_out-256_filters-8_short_shape-1__3_long_shape-1__256_dropout-0.3
+Run 0, shallow_tempo_in-40__256__1_out-256_filters-8_short_shape-1__3_long_shape-1__256_dropout-0.3, params=1180448
+Run 0, shallow_tempo_in-40__256__1_out-256_filters-8_short_shape-1__3_long_shape-1__256_dropout-0.5, params=1180448
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7fe3e3ba4700>, model_name=shallow_tempo_in-40__256__1_out-256_filters-8_short_shape-1__3_long_shape-1__256_dropout-0.5
+Run 0, shallow_tempo_in-40__256__1_out-256_filters-8_short_shape-1__3_long_shape-1__256_dropout-0.5, params=1180448
+Run 0, shallow_tempo_in-40__256__1_out-256_filters-12_short_shape-1__3_long_shape-1__256_dropout-0.1, params=2556976
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7fe3e3ba4700>, model_name=shallow_tempo_in-40__256__1_out-256_filters-12_short_shape-1__3_long_shape-1__256_dropout-0.1
+Run 0, shallow_tempo_in-40__256__1_out-256_filters-12_short_shape-1__3_long_shape-1__256_dropout-0.1, params=2556976
+Run 0, shallow_tempo_in-40__256__1_out-256_filters-12_short_shape-1__3_long_shape-1__256_dropout-0.3, params=2556976
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7fe3e3ba4700>, model_name=shallow_tempo_in-40__256__1_out-256_filters-12_short_shape-1__3_long_shape-1__256_dropout-0.3
+Run 0, shallow_tempo_in-40__256__1_out-256_filters-12_short_shape-1__3_long_shape-1__256_dropout-0.3, params=2556976
+Run 0, shallow_tempo_in-40__256__1_out-256_filters-12_short_shape-1__3_long_shape-1__256_dropout-0.5, params=2556976
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7fe3e3ba4700>, model_name=shallow_tempo_in-40__256__1_out-256_filters-12_short_shape-1__3_long_shape-1__256_dropout-0.5
+Run 0, shallow_tempo_in-40__256__1_out-256_filters-12_short_shape-1__3_long_shape-1__256_dropout-0.5, params=2556976
+Run 0, vgg_like_in-40__256__1_out=256_filters-2_pool_shape-2__2_max-True_filter_shapes-[1__5__1__3]_dropout-0.1, params=9322
+None

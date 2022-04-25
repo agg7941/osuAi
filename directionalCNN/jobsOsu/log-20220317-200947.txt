@@ -1,0 +1,837 @@
+Starting train and predict. 2022-03-17 20:09:48.944885
+
+Default GPU: /device:GPU:0
+Creating local copies, if necessary...
+Loaded features for 1792 files from ['tempo_features.joblib'].
+We assume that we are estimating TEMPO. First feature shape: (40, 501, 1)
+Loading ground truth...
+Loaded 1075 training annotations from train.tsv.
+Loaded 358 validation annotations from val.tsv.
+Number of classes: 256
+Creating generators...
+Creating model...
+Run 0, shallow_key_in-40__256__1_out-256_filters-1_short_shape-3__1_long_shape-40__1_dropout-0.1, params=19268
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-1_short_shape-3__1_long_shape-40__1_dropout-0.1
+Run 0, shallow_key_in-40__256__1_out-256_filters-1_short_shape-3__1_long_shape-40__1_dropout-0.1, params=19268
+Run 1, shallow_key_in-40__256__1_out-256_filters-1_short_shape-3__1_long_shape-40__1_dropout-0.1, params=19268
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-1_short_shape-3__1_long_shape-40__1_dropout-0.1
+Run 1, shallow_key_in-40__256__1_out-256_filters-1_short_shape-3__1_long_shape-40__1_dropout-0.1, params=19268
+Run 2, shallow_key_in-40__256__1_out-256_filters-1_short_shape-3__1_long_shape-40__1_dropout-0.1, params=19268
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-1_short_shape-3__1_long_shape-40__1_dropout-0.1
+Run 2, shallow_key_in-40__256__1_out-256_filters-1_short_shape-3__1_long_shape-40__1_dropout-0.1, params=19268
+Run 3, shallow_key_in-40__256__1_out-256_filters-1_short_shape-3__1_long_shape-40__1_dropout-0.1, params=19268
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-1_short_shape-3__1_long_shape-40__1_dropout-0.1
+Run 3, shallow_key_in-40__256__1_out-256_filters-1_short_shape-3__1_long_shape-40__1_dropout-0.1, params=19268
+Run 4, shallow_key_in-40__256__1_out-256_filters-1_short_shape-3__1_long_shape-40__1_dropout-0.1, params=19268
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-1_short_shape-3__1_long_shape-40__1_dropout-0.1
+Run 4, shallow_key_in-40__256__1_out-256_filters-1_short_shape-3__1_long_shape-40__1_dropout-0.1, params=19268
+Run 0, shallow_key_in-40__256__1_out-256_filters-1_short_shape-3__1_long_shape-40__1_dropout-0.3, params=19268
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-1_short_shape-3__1_long_shape-40__1_dropout-0.3
+Run 0, shallow_key_in-40__256__1_out-256_filters-1_short_shape-3__1_long_shape-40__1_dropout-0.3, params=19268
+Run 1, shallow_key_in-40__256__1_out-256_filters-1_short_shape-3__1_long_shape-40__1_dropout-0.3, params=19268
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-1_short_shape-3__1_long_shape-40__1_dropout-0.3
+Run 1, shallow_key_in-40__256__1_out-256_filters-1_short_shape-3__1_long_shape-40__1_dropout-0.3, params=19268
+Run 2, shallow_key_in-40__256__1_out-256_filters-1_short_shape-3__1_long_shape-40__1_dropout-0.3, params=19268
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-1_short_shape-3__1_long_shape-40__1_dropout-0.3
+Run 2, shallow_key_in-40__256__1_out-256_filters-1_short_shape-3__1_long_shape-40__1_dropout-0.3, params=19268
+Run 3, shallow_key_in-40__256__1_out-256_filters-1_short_shape-3__1_long_shape-40__1_dropout-0.3, params=19268
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-1_short_shape-3__1_long_shape-40__1_dropout-0.3
+Run 3, shallow_key_in-40__256__1_out-256_filters-1_short_shape-3__1_long_shape-40__1_dropout-0.3, params=19268
+Run 4, shallow_key_in-40__256__1_out-256_filters-1_short_shape-3__1_long_shape-40__1_dropout-0.3, params=19268
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-1_short_shape-3__1_long_shape-40__1_dropout-0.3
+Run 4, shallow_key_in-40__256__1_out-256_filters-1_short_shape-3__1_long_shape-40__1_dropout-0.3, params=19268
+Run 0, shallow_key_in-40__256__1_out-256_filters-1_short_shape-3__1_long_shape-40__1_dropout-0.5, params=19268
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-1_short_shape-3__1_long_shape-40__1_dropout-0.5
+Run 0, shallow_key_in-40__256__1_out-256_filters-1_short_shape-3__1_long_shape-40__1_dropout-0.5, params=19268
+Run 1, shallow_key_in-40__256__1_out-256_filters-1_short_shape-3__1_long_shape-40__1_dropout-0.5, params=19268
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-1_short_shape-3__1_long_shape-40__1_dropout-0.5
+Run 1, shallow_key_in-40__256__1_out-256_filters-1_short_shape-3__1_long_shape-40__1_dropout-0.5, params=19268
+Run 2, shallow_key_in-40__256__1_out-256_filters-1_short_shape-3__1_long_shape-40__1_dropout-0.5, params=19268
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-1_short_shape-3__1_long_shape-40__1_dropout-0.5
+Run 2, shallow_key_in-40__256__1_out-256_filters-1_short_shape-3__1_long_shape-40__1_dropout-0.5, params=19268
+Run 3, shallow_key_in-40__256__1_out-256_filters-1_short_shape-3__1_long_shape-40__1_dropout-0.5, params=19268
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-1_short_shape-3__1_long_shape-40__1_dropout-0.5
+Run 3, shallow_key_in-40__256__1_out-256_filters-1_short_shape-3__1_long_shape-40__1_dropout-0.5, params=19268
+Run 4, shallow_key_in-40__256__1_out-256_filters-1_short_shape-3__1_long_shape-40__1_dropout-0.5, params=19268
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-1_short_shape-3__1_long_shape-40__1_dropout-0.5
+Run 4, shallow_key_in-40__256__1_out-256_filters-1_short_shape-3__1_long_shape-40__1_dropout-0.5, params=19268
+Run 0, shallow_key_in-40__256__1_out-256_filters-2_short_shape-3__1_long_shape-40__1_dropout-0.1, params=43400
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-2_short_shape-3__1_long_shape-40__1_dropout-0.1
+Run 0, shallow_key_in-40__256__1_out-256_filters-2_short_shape-3__1_long_shape-40__1_dropout-0.1, params=43400
+Run 1, shallow_key_in-40__256__1_out-256_filters-2_short_shape-3__1_long_shape-40__1_dropout-0.1, params=43400
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-2_short_shape-3__1_long_shape-40__1_dropout-0.1
+Run 1, shallow_key_in-40__256__1_out-256_filters-2_short_shape-3__1_long_shape-40__1_dropout-0.1, params=43400
+Run 2, shallow_key_in-40__256__1_out-256_filters-2_short_shape-3__1_long_shape-40__1_dropout-0.1, params=43400
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-2_short_shape-3__1_long_shape-40__1_dropout-0.1
+Run 2, shallow_key_in-40__256__1_out-256_filters-2_short_shape-3__1_long_shape-40__1_dropout-0.1, params=43400
+Run 3, shallow_key_in-40__256__1_out-256_filters-2_short_shape-3__1_long_shape-40__1_dropout-0.1, params=43400
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-2_short_shape-3__1_long_shape-40__1_dropout-0.1
+Run 3, shallow_key_in-40__256__1_out-256_filters-2_short_shape-3__1_long_shape-40__1_dropout-0.1, params=43400
+Run 4, shallow_key_in-40__256__1_out-256_filters-2_short_shape-3__1_long_shape-40__1_dropout-0.1, params=43400
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-2_short_shape-3__1_long_shape-40__1_dropout-0.1
+Run 4, shallow_key_in-40__256__1_out-256_filters-2_short_shape-3__1_long_shape-40__1_dropout-0.1, params=43400
+Run 0, shallow_key_in-40__256__1_out-256_filters-2_short_shape-3__1_long_shape-40__1_dropout-0.3, params=43400
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-2_short_shape-3__1_long_shape-40__1_dropout-0.3
+Run 0, shallow_key_in-40__256__1_out-256_filters-2_short_shape-3__1_long_shape-40__1_dropout-0.3, params=43400
+Run 1, shallow_key_in-40__256__1_out-256_filters-2_short_shape-3__1_long_shape-40__1_dropout-0.3, params=43400
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-2_short_shape-3__1_long_shape-40__1_dropout-0.3
+Run 1, shallow_key_in-40__256__1_out-256_filters-2_short_shape-3__1_long_shape-40__1_dropout-0.3, params=43400
+Run 2, shallow_key_in-40__256__1_out-256_filters-2_short_shape-3__1_long_shape-40__1_dropout-0.3, params=43400
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-2_short_shape-3__1_long_shape-40__1_dropout-0.3
+Run 2, shallow_key_in-40__256__1_out-256_filters-2_short_shape-3__1_long_shape-40__1_dropout-0.3, params=43400
+Run 3, shallow_key_in-40__256__1_out-256_filters-2_short_shape-3__1_long_shape-40__1_dropout-0.3, params=43400
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-2_short_shape-3__1_long_shape-40__1_dropout-0.3
+Run 3, shallow_key_in-40__256__1_out-256_filters-2_short_shape-3__1_long_shape-40__1_dropout-0.3, params=43400
+Run 4, shallow_key_in-40__256__1_out-256_filters-2_short_shape-3__1_long_shape-40__1_dropout-0.3, params=43400
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-2_short_shape-3__1_long_shape-40__1_dropout-0.3
+Run 4, shallow_key_in-40__256__1_out-256_filters-2_short_shape-3__1_long_shape-40__1_dropout-0.3, params=43400
+Run 0, shallow_key_in-40__256__1_out-256_filters-2_short_shape-3__1_long_shape-40__1_dropout-0.5, params=43400
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-2_short_shape-3__1_long_shape-40__1_dropout-0.5
+Run 0, shallow_key_in-40__256__1_out-256_filters-2_short_shape-3__1_long_shape-40__1_dropout-0.5, params=43400
+Run 1, shallow_key_in-40__256__1_out-256_filters-2_short_shape-3__1_long_shape-40__1_dropout-0.5, params=43400
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-2_short_shape-3__1_long_shape-40__1_dropout-0.5
+Run 1, shallow_key_in-40__256__1_out-256_filters-2_short_shape-3__1_long_shape-40__1_dropout-0.5, params=43400
+Run 2, shallow_key_in-40__256__1_out-256_filters-2_short_shape-3__1_long_shape-40__1_dropout-0.5, params=43400
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-2_short_shape-3__1_long_shape-40__1_dropout-0.5
+Run 2, shallow_key_in-40__256__1_out-256_filters-2_short_shape-3__1_long_shape-40__1_dropout-0.5, params=43400
+Run 3, shallow_key_in-40__256__1_out-256_filters-2_short_shape-3__1_long_shape-40__1_dropout-0.5, params=43400
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-2_short_shape-3__1_long_shape-40__1_dropout-0.5
+Run 3, shallow_key_in-40__256__1_out-256_filters-2_short_shape-3__1_long_shape-40__1_dropout-0.5, params=43400
+Run 4, shallow_key_in-40__256__1_out-256_filters-2_short_shape-3__1_long_shape-40__1_dropout-0.5, params=43400
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-2_short_shape-3__1_long_shape-40__1_dropout-0.5
+Run 4, shallow_key_in-40__256__1_out-256_filters-2_short_shape-3__1_long_shape-40__1_dropout-0.5, params=43400
+Run 0, shallow_key_in-40__256__1_out-256_filters-4_short_shape-3__1_long_shape-40__1_dropout-0.1, params=107024
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-4_short_shape-3__1_long_shape-40__1_dropout-0.1
+Run 0, shallow_key_in-40__256__1_out-256_filters-4_short_shape-3__1_long_shape-40__1_dropout-0.1, params=107024
+Run 1, shallow_key_in-40__256__1_out-256_filters-4_short_shape-3__1_long_shape-40__1_dropout-0.1, params=107024
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-4_short_shape-3__1_long_shape-40__1_dropout-0.1
+Run 1, shallow_key_in-40__256__1_out-256_filters-4_short_shape-3__1_long_shape-40__1_dropout-0.1, params=107024
+Run 2, shallow_key_in-40__256__1_out-256_filters-4_short_shape-3__1_long_shape-40__1_dropout-0.1, params=107024
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-4_short_shape-3__1_long_shape-40__1_dropout-0.1
+Run 2, shallow_key_in-40__256__1_out-256_filters-4_short_shape-3__1_long_shape-40__1_dropout-0.1, params=107024
+Run 3, shallow_key_in-40__256__1_out-256_filters-4_short_shape-3__1_long_shape-40__1_dropout-0.1, params=107024
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-4_short_shape-3__1_long_shape-40__1_dropout-0.1
+Run 3, shallow_key_in-40__256__1_out-256_filters-4_short_shape-3__1_long_shape-40__1_dropout-0.1, params=107024
+Run 4, shallow_key_in-40__256__1_out-256_filters-4_short_shape-3__1_long_shape-40__1_dropout-0.1, params=107024
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-4_short_shape-3__1_long_shape-40__1_dropout-0.1
+Run 4, shallow_key_in-40__256__1_out-256_filters-4_short_shape-3__1_long_shape-40__1_dropout-0.1, params=107024
+Run 0, shallow_key_in-40__256__1_out-256_filters-4_short_shape-3__1_long_shape-40__1_dropout-0.3, params=107024
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-4_short_shape-3__1_long_shape-40__1_dropout-0.3
+Run 0, shallow_key_in-40__256__1_out-256_filters-4_short_shape-3__1_long_shape-40__1_dropout-0.3, params=107024
+Run 1, shallow_key_in-40__256__1_out-256_filters-4_short_shape-3__1_long_shape-40__1_dropout-0.3, params=107024
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-4_short_shape-3__1_long_shape-40__1_dropout-0.3
+Run 1, shallow_key_in-40__256__1_out-256_filters-4_short_shape-3__1_long_shape-40__1_dropout-0.3, params=107024
+Run 2, shallow_key_in-40__256__1_out-256_filters-4_short_shape-3__1_long_shape-40__1_dropout-0.3, params=107024
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-4_short_shape-3__1_long_shape-40__1_dropout-0.3
+Run 2, shallow_key_in-40__256__1_out-256_filters-4_short_shape-3__1_long_shape-40__1_dropout-0.3, params=107024
+Run 3, shallow_key_in-40__256__1_out-256_filters-4_short_shape-3__1_long_shape-40__1_dropout-0.3, params=107024
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-4_short_shape-3__1_long_shape-40__1_dropout-0.3
+Run 3, shallow_key_in-40__256__1_out-256_filters-4_short_shape-3__1_long_shape-40__1_dropout-0.3, params=107024
+Run 4, shallow_key_in-40__256__1_out-256_filters-4_short_shape-3__1_long_shape-40__1_dropout-0.3, params=107024
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-4_short_shape-3__1_long_shape-40__1_dropout-0.3
+Run 4, shallow_key_in-40__256__1_out-256_filters-4_short_shape-3__1_long_shape-40__1_dropout-0.3, params=107024
+Run 0, shallow_key_in-40__256__1_out-256_filters-4_short_shape-3__1_long_shape-40__1_dropout-0.5, params=107024
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-4_short_shape-3__1_long_shape-40__1_dropout-0.5
+Run 0, shallow_key_in-40__256__1_out-256_filters-4_short_shape-3__1_long_shape-40__1_dropout-0.5, params=107024
+Run 1, shallow_key_in-40__256__1_out-256_filters-4_short_shape-3__1_long_shape-40__1_dropout-0.5, params=107024
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-4_short_shape-3__1_long_shape-40__1_dropout-0.5
+Run 1, shallow_key_in-40__256__1_out-256_filters-4_short_shape-3__1_long_shape-40__1_dropout-0.5, params=107024
+Run 2, shallow_key_in-40__256__1_out-256_filters-4_short_shape-3__1_long_shape-40__1_dropout-0.5, params=107024
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-4_short_shape-3__1_long_shape-40__1_dropout-0.5
+Run 2, shallow_key_in-40__256__1_out-256_filters-4_short_shape-3__1_long_shape-40__1_dropout-0.5, params=107024
+Run 3, shallow_key_in-40__256__1_out-256_filters-4_short_shape-3__1_long_shape-40__1_dropout-0.5, params=107024
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-4_short_shape-3__1_long_shape-40__1_dropout-0.5
+Run 3, shallow_key_in-40__256__1_out-256_filters-4_short_shape-3__1_long_shape-40__1_dropout-0.5, params=107024
+Run 4, shallow_key_in-40__256__1_out-256_filters-4_short_shape-3__1_long_shape-40__1_dropout-0.5, params=107024
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-4_short_shape-3__1_long_shape-40__1_dropout-0.5
+Run 4, shallow_key_in-40__256__1_out-256_filters-4_short_shape-3__1_long_shape-40__1_dropout-0.5, params=107024
+Run 0, shallow_key_in-40__256__1_out-256_filters-6_short_shape-3__1_long_shape-40__1_dropout-0.1, params=191128
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-6_short_shape-3__1_long_shape-40__1_dropout-0.1
+Run 0, shallow_key_in-40__256__1_out-256_filters-6_short_shape-3__1_long_shape-40__1_dropout-0.1, params=191128
+Run 1, shallow_key_in-40__256__1_out-256_filters-6_short_shape-3__1_long_shape-40__1_dropout-0.1, params=191128
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-6_short_shape-3__1_long_shape-40__1_dropout-0.1
+Run 1, shallow_key_in-40__256__1_out-256_filters-6_short_shape-3__1_long_shape-40__1_dropout-0.1, params=191128
+Run 2, shallow_key_in-40__256__1_out-256_filters-6_short_shape-3__1_long_shape-40__1_dropout-0.1, params=191128
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-6_short_shape-3__1_long_shape-40__1_dropout-0.1
+Run 2, shallow_key_in-40__256__1_out-256_filters-6_short_shape-3__1_long_shape-40__1_dropout-0.1, params=191128
+Run 3, shallow_key_in-40__256__1_out-256_filters-6_short_shape-3__1_long_shape-40__1_dropout-0.1, params=191128
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-6_short_shape-3__1_long_shape-40__1_dropout-0.1
+Run 3, shallow_key_in-40__256__1_out-256_filters-6_short_shape-3__1_long_shape-40__1_dropout-0.1, params=191128
+Run 4, shallow_key_in-40__256__1_out-256_filters-6_short_shape-3__1_long_shape-40__1_dropout-0.1, params=191128
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-6_short_shape-3__1_long_shape-40__1_dropout-0.1
+Run 4, shallow_key_in-40__256__1_out-256_filters-6_short_shape-3__1_long_shape-40__1_dropout-0.1, params=191128
+Run 0, shallow_key_in-40__256__1_out-256_filters-6_short_shape-3__1_long_shape-40__1_dropout-0.3, params=191128
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-6_short_shape-3__1_long_shape-40__1_dropout-0.3
+Run 0, shallow_key_in-40__256__1_out-256_filters-6_short_shape-3__1_long_shape-40__1_dropout-0.3, params=191128
+Run 1, shallow_key_in-40__256__1_out-256_filters-6_short_shape-3__1_long_shape-40__1_dropout-0.3, params=191128
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-6_short_shape-3__1_long_shape-40__1_dropout-0.3
+Run 1, shallow_key_in-40__256__1_out-256_filters-6_short_shape-3__1_long_shape-40__1_dropout-0.3, params=191128
+Run 2, shallow_key_in-40__256__1_out-256_filters-6_short_shape-3__1_long_shape-40__1_dropout-0.3, params=191128
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-6_short_shape-3__1_long_shape-40__1_dropout-0.3
+Run 2, shallow_key_in-40__256__1_out-256_filters-6_short_shape-3__1_long_shape-40__1_dropout-0.3, params=191128
+Run 3, shallow_key_in-40__256__1_out-256_filters-6_short_shape-3__1_long_shape-40__1_dropout-0.3, params=191128
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-6_short_shape-3__1_long_shape-40__1_dropout-0.3
+Run 3, shallow_key_in-40__256__1_out-256_filters-6_short_shape-3__1_long_shape-40__1_dropout-0.3, params=191128
+Run 4, shallow_key_in-40__256__1_out-256_filters-6_short_shape-3__1_long_shape-40__1_dropout-0.3, params=191128
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-6_short_shape-3__1_long_shape-40__1_dropout-0.3
+Run 4, shallow_key_in-40__256__1_out-256_filters-6_short_shape-3__1_long_shape-40__1_dropout-0.3, params=191128
+Run 0, shallow_key_in-40__256__1_out-256_filters-6_short_shape-3__1_long_shape-40__1_dropout-0.5, params=191128
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-6_short_shape-3__1_long_shape-40__1_dropout-0.5
+Run 0, shallow_key_in-40__256__1_out-256_filters-6_short_shape-3__1_long_shape-40__1_dropout-0.5, params=191128
+Run 1, shallow_key_in-40__256__1_out-256_filters-6_short_shape-3__1_long_shape-40__1_dropout-0.5, params=191128
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-6_short_shape-3__1_long_shape-40__1_dropout-0.5
+Run 1, shallow_key_in-40__256__1_out-256_filters-6_short_shape-3__1_long_shape-40__1_dropout-0.5, params=191128
+Run 2, shallow_key_in-40__256__1_out-256_filters-6_short_shape-3__1_long_shape-40__1_dropout-0.5, params=191128
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-6_short_shape-3__1_long_shape-40__1_dropout-0.5
+Run 2, shallow_key_in-40__256__1_out-256_filters-6_short_shape-3__1_long_shape-40__1_dropout-0.5, params=191128
+Run 3, shallow_key_in-40__256__1_out-256_filters-6_short_shape-3__1_long_shape-40__1_dropout-0.5, params=191128
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-6_short_shape-3__1_long_shape-40__1_dropout-0.5
+Run 3, shallow_key_in-40__256__1_out-256_filters-6_short_shape-3__1_long_shape-40__1_dropout-0.5, params=191128
+Run 4, shallow_key_in-40__256__1_out-256_filters-6_short_shape-3__1_long_shape-40__1_dropout-0.5, params=191128
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-6_short_shape-3__1_long_shape-40__1_dropout-0.5
+Run 4, shallow_key_in-40__256__1_out-256_filters-6_short_shape-3__1_long_shape-40__1_dropout-0.5, params=191128
+Run 0, shallow_key_in-40__256__1_out-256_filters-8_short_shape-3__1_long_shape-40__1_dropout-0.1, params=295712
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-8_short_shape-3__1_long_shape-40__1_dropout-0.1
+Run 0, shallow_key_in-40__256__1_out-256_filters-8_short_shape-3__1_long_shape-40__1_dropout-0.1, params=295712
+Run 1, shallow_key_in-40__256__1_out-256_filters-8_short_shape-3__1_long_shape-40__1_dropout-0.1, params=295712
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-8_short_shape-3__1_long_shape-40__1_dropout-0.1
+Run 1, shallow_key_in-40__256__1_out-256_filters-8_short_shape-3__1_long_shape-40__1_dropout-0.1, params=295712
+Run 2, shallow_key_in-40__256__1_out-256_filters-8_short_shape-3__1_long_shape-40__1_dropout-0.1, params=295712
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-8_short_shape-3__1_long_shape-40__1_dropout-0.1
+Run 2, shallow_key_in-40__256__1_out-256_filters-8_short_shape-3__1_long_shape-40__1_dropout-0.1, params=295712
+Run 3, shallow_key_in-40__256__1_out-256_filters-8_short_shape-3__1_long_shape-40__1_dropout-0.1, params=295712
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-8_short_shape-3__1_long_shape-40__1_dropout-0.1
+Run 3, shallow_key_in-40__256__1_out-256_filters-8_short_shape-3__1_long_shape-40__1_dropout-0.1, params=295712
+Run 4, shallow_key_in-40__256__1_out-256_filters-8_short_shape-3__1_long_shape-40__1_dropout-0.1, params=295712
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-8_short_shape-3__1_long_shape-40__1_dropout-0.1
+Run 4, shallow_key_in-40__256__1_out-256_filters-8_short_shape-3__1_long_shape-40__1_dropout-0.1, params=295712
+Run 0, shallow_key_in-40__256__1_out-256_filters-8_short_shape-3__1_long_shape-40__1_dropout-0.3, params=295712
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-8_short_shape-3__1_long_shape-40__1_dropout-0.3
+Run 0, shallow_key_in-40__256__1_out-256_filters-8_short_shape-3__1_long_shape-40__1_dropout-0.3, params=295712
+Run 1, shallow_key_in-40__256__1_out-256_filters-8_short_shape-3__1_long_shape-40__1_dropout-0.3, params=295712
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-8_short_shape-3__1_long_shape-40__1_dropout-0.3
+Run 1, shallow_key_in-40__256__1_out-256_filters-8_short_shape-3__1_long_shape-40__1_dropout-0.3, params=295712
+Run 2, shallow_key_in-40__256__1_out-256_filters-8_short_shape-3__1_long_shape-40__1_dropout-0.3, params=295712
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-8_short_shape-3__1_long_shape-40__1_dropout-0.3
+Run 2, shallow_key_in-40__256__1_out-256_filters-8_short_shape-3__1_long_shape-40__1_dropout-0.3, params=295712
+Run 3, shallow_key_in-40__256__1_out-256_filters-8_short_shape-3__1_long_shape-40__1_dropout-0.3, params=295712
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-8_short_shape-3__1_long_shape-40__1_dropout-0.3
+Run 3, shallow_key_in-40__256__1_out-256_filters-8_short_shape-3__1_long_shape-40__1_dropout-0.3, params=295712
+Run 4, shallow_key_in-40__256__1_out-256_filters-8_short_shape-3__1_long_shape-40__1_dropout-0.3, params=295712
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-8_short_shape-3__1_long_shape-40__1_dropout-0.3
+Run 4, shallow_key_in-40__256__1_out-256_filters-8_short_shape-3__1_long_shape-40__1_dropout-0.3, params=295712
+Run 0, shallow_key_in-40__256__1_out-256_filters-8_short_shape-3__1_long_shape-40__1_dropout-0.5, params=295712
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-8_short_shape-3__1_long_shape-40__1_dropout-0.5
+Run 0, shallow_key_in-40__256__1_out-256_filters-8_short_shape-3__1_long_shape-40__1_dropout-0.5, params=295712
+Run 1, shallow_key_in-40__256__1_out-256_filters-8_short_shape-3__1_long_shape-40__1_dropout-0.5, params=295712
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-8_short_shape-3__1_long_shape-40__1_dropout-0.5
+Run 1, shallow_key_in-40__256__1_out-256_filters-8_short_shape-3__1_long_shape-40__1_dropout-0.5, params=295712
+Run 2, shallow_key_in-40__256__1_out-256_filters-8_short_shape-3__1_long_shape-40__1_dropout-0.5, params=295712
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-8_short_shape-3__1_long_shape-40__1_dropout-0.5
+Run 2, shallow_key_in-40__256__1_out-256_filters-8_short_shape-3__1_long_shape-40__1_dropout-0.5, params=295712
+Run 3, shallow_key_in-40__256__1_out-256_filters-8_short_shape-3__1_long_shape-40__1_dropout-0.5, params=295712
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-8_short_shape-3__1_long_shape-40__1_dropout-0.5
+Run 3, shallow_key_in-40__256__1_out-256_filters-8_short_shape-3__1_long_shape-40__1_dropout-0.5, params=295712
+Run 4, shallow_key_in-40__256__1_out-256_filters-8_short_shape-3__1_long_shape-40__1_dropout-0.5, params=295712
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-8_short_shape-3__1_long_shape-40__1_dropout-0.5
+Run 4, shallow_key_in-40__256__1_out-256_filters-8_short_shape-3__1_long_shape-40__1_dropout-0.5, params=295712
+Run 0, shallow_key_in-40__256__1_out-256_filters-12_short_shape-3__1_long_shape-40__1_dropout-0.1, params=566320
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-12_short_shape-3__1_long_shape-40__1_dropout-0.1
+Run 0, shallow_key_in-40__256__1_out-256_filters-12_short_shape-3__1_long_shape-40__1_dropout-0.1, params=566320
+Run 1, shallow_key_in-40__256__1_out-256_filters-12_short_shape-3__1_long_shape-40__1_dropout-0.1, params=566320
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-12_short_shape-3__1_long_shape-40__1_dropout-0.1
+Run 1, shallow_key_in-40__256__1_out-256_filters-12_short_shape-3__1_long_shape-40__1_dropout-0.1, params=566320
+Run 2, shallow_key_in-40__256__1_out-256_filters-12_short_shape-3__1_long_shape-40__1_dropout-0.1, params=566320
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-12_short_shape-3__1_long_shape-40__1_dropout-0.1
+Run 2, shallow_key_in-40__256__1_out-256_filters-12_short_shape-3__1_long_shape-40__1_dropout-0.1, params=566320
+Run 3, shallow_key_in-40__256__1_out-256_filters-12_short_shape-3__1_long_shape-40__1_dropout-0.1, params=566320
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-12_short_shape-3__1_long_shape-40__1_dropout-0.1
+Run 3, shallow_key_in-40__256__1_out-256_filters-12_short_shape-3__1_long_shape-40__1_dropout-0.1, params=566320
+Run 4, shallow_key_in-40__256__1_out-256_filters-12_short_shape-3__1_long_shape-40__1_dropout-0.1, params=566320
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-12_short_shape-3__1_long_shape-40__1_dropout-0.1
+Run 4, shallow_key_in-40__256__1_out-256_filters-12_short_shape-3__1_long_shape-40__1_dropout-0.1, params=566320
+Run 0, shallow_key_in-40__256__1_out-256_filters-12_short_shape-3__1_long_shape-40__1_dropout-0.3, params=566320
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-12_short_shape-3__1_long_shape-40__1_dropout-0.3
+Run 0, shallow_key_in-40__256__1_out-256_filters-12_short_shape-3__1_long_shape-40__1_dropout-0.3, params=566320
+Run 1, shallow_key_in-40__256__1_out-256_filters-12_short_shape-3__1_long_shape-40__1_dropout-0.3, params=566320
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-12_short_shape-3__1_long_shape-40__1_dropout-0.3
+Run 1, shallow_key_in-40__256__1_out-256_filters-12_short_shape-3__1_long_shape-40__1_dropout-0.3, params=566320
+Run 2, shallow_key_in-40__256__1_out-256_filters-12_short_shape-3__1_long_shape-40__1_dropout-0.3, params=566320
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-12_short_shape-3__1_long_shape-40__1_dropout-0.3
+Run 2, shallow_key_in-40__256__1_out-256_filters-12_short_shape-3__1_long_shape-40__1_dropout-0.3, params=566320
+Run 3, shallow_key_in-40__256__1_out-256_filters-12_short_shape-3__1_long_shape-40__1_dropout-0.3, params=566320
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-12_short_shape-3__1_long_shape-40__1_dropout-0.3
+Run 3, shallow_key_in-40__256__1_out-256_filters-12_short_shape-3__1_long_shape-40__1_dropout-0.3, params=566320
+Run 4, shallow_key_in-40__256__1_out-256_filters-12_short_shape-3__1_long_shape-40__1_dropout-0.3, params=566320
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-12_short_shape-3__1_long_shape-40__1_dropout-0.3
+Run 4, shallow_key_in-40__256__1_out-256_filters-12_short_shape-3__1_long_shape-40__1_dropout-0.3, params=566320
+Run 0, shallow_key_in-40__256__1_out-256_filters-12_short_shape-3__1_long_shape-40__1_dropout-0.5, params=566320
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-12_short_shape-3__1_long_shape-40__1_dropout-0.5
+Run 0, shallow_key_in-40__256__1_out-256_filters-12_short_shape-3__1_long_shape-40__1_dropout-0.5, params=566320
+Run 1, shallow_key_in-40__256__1_out-256_filters-12_short_shape-3__1_long_shape-40__1_dropout-0.5, params=566320
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-12_short_shape-3__1_long_shape-40__1_dropout-0.5
+Run 1, shallow_key_in-40__256__1_out-256_filters-12_short_shape-3__1_long_shape-40__1_dropout-0.5, params=566320
+Run 2, shallow_key_in-40__256__1_out-256_filters-12_short_shape-3__1_long_shape-40__1_dropout-0.5, params=566320
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-12_short_shape-3__1_long_shape-40__1_dropout-0.5
+Run 2, shallow_key_in-40__256__1_out-256_filters-12_short_shape-3__1_long_shape-40__1_dropout-0.5, params=566320
+Run 3, shallow_key_in-40__256__1_out-256_filters-12_short_shape-3__1_long_shape-40__1_dropout-0.5, params=566320
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-12_short_shape-3__1_long_shape-40__1_dropout-0.5
+Run 3, shallow_key_in-40__256__1_out-256_filters-12_short_shape-3__1_long_shape-40__1_dropout-0.5, params=566320
+Run 4, shallow_key_in-40__256__1_out-256_filters-12_short_shape-3__1_long_shape-40__1_dropout-0.5, params=566320
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=shallow_key_in-40__256__1_out-256_filters-12_short_shape-3__1_long_shape-40__1_dropout-0.5
+Run 4, shallow_key_in-40__256__1_out-256_filters-12_short_shape-3__1_long_shape-40__1_dropout-0.5, params=566320
+Run 0, vgg_like_in-40__256__1_out-256_filters-2_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.1, params=9322
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-2_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.1
+Run 0, vgg_like_in-40__256__1_out-256_filters-2_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.1, params=9322
+Run 1, vgg_like_in-40__256__1_out-256_filters-2_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.1, params=9322
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-2_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.1
+Run 1, vgg_like_in-40__256__1_out-256_filters-2_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.1, params=9322
+Run 2, vgg_like_in-40__256__1_out-256_filters-2_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.1, params=9322
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-2_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.1
+Run 2, vgg_like_in-40__256__1_out-256_filters-2_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.1, params=9322
+Run 3, vgg_like_in-40__256__1_out-256_filters-2_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.1, params=9322
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-2_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.1
+Run 3, vgg_like_in-40__256__1_out-256_filters-2_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.1, params=9322
+Run 4, vgg_like_in-40__256__1_out-256_filters-2_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.1, params=9322
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-2_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.1
+Run 4, vgg_like_in-40__256__1_out-256_filters-2_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.1, params=9322
+Run 0, vgg_like_in-40__256__1_out-256_filters-2_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.3, params=9322
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-2_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.3
+Run 0, vgg_like_in-40__256__1_out-256_filters-2_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.3, params=9322
+Run 1, vgg_like_in-40__256__1_out-256_filters-2_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.3, params=9322
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-2_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.3
+Run 1, vgg_like_in-40__256__1_out-256_filters-2_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.3, params=9322
+Run 2, vgg_like_in-40__256__1_out-256_filters-2_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.3, params=9322
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-2_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.3
+Run 2, vgg_like_in-40__256__1_out-256_filters-2_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.3, params=9322
+Run 3, vgg_like_in-40__256__1_out-256_filters-2_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.3, params=9322
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-2_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.3
+Run 3, vgg_like_in-40__256__1_out-256_filters-2_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.3, params=9322
+Run 4, vgg_like_in-40__256__1_out-256_filters-2_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.3, params=9322
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-2_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.3
+Run 4, vgg_like_in-40__256__1_out-256_filters-2_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.3, params=9322
+Run 0, vgg_like_in-40__256__1_out-256_filters-2_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.5, params=9322
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-2_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.5
+Run 0, vgg_like_in-40__256__1_out-256_filters-2_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.5, params=9322
+Run 1, vgg_like_in-40__256__1_out-256_filters-2_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.5, params=9322
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-2_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.5
+Run 1, vgg_like_in-40__256__1_out-256_filters-2_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.5, params=9322
+Run 2, vgg_like_in-40__256__1_out-256_filters-2_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.5, params=9322
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-2_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.5
+Run 2, vgg_like_in-40__256__1_out-256_filters-2_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.5, params=9322
+Run 3, vgg_like_in-40__256__1_out-256_filters-2_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.5, params=9322
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-2_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.5
+Run 3, vgg_like_in-40__256__1_out-256_filters-2_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.5, params=9322
+Run 4, vgg_like_in-40__256__1_out-256_filters-2_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.5, params=9322
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-2_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.5
+Run 4, vgg_like_in-40__256__1_out-256_filters-2_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.5, params=9322
+Run 0, vgg_like_in-40__256__1_out-256_filters-4_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.1, params=27228
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-4_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.1
+Run 0, vgg_like_in-40__256__1_out-256_filters-4_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.1, params=27228
+Run 1, vgg_like_in-40__256__1_out-256_filters-4_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.1, params=27228
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-4_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.1
+Run 1, vgg_like_in-40__256__1_out-256_filters-4_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.1, params=27228
+Run 2, vgg_like_in-40__256__1_out-256_filters-4_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.1, params=27228
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-4_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.1
+Run 2, vgg_like_in-40__256__1_out-256_filters-4_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.1, params=27228
+Run 3, vgg_like_in-40__256__1_out-256_filters-4_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.1, params=27228
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-4_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.1
+Run 3, vgg_like_in-40__256__1_out-256_filters-4_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.1, params=27228
+Run 4, vgg_like_in-40__256__1_out-256_filters-4_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.1, params=27228
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-4_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.1
+Run 4, vgg_like_in-40__256__1_out-256_filters-4_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.1, params=27228
+Run 0, vgg_like_in-40__256__1_out-256_filters-4_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.3, params=27228
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-4_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.3
+Run 0, vgg_like_in-40__256__1_out-256_filters-4_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.3, params=27228
+Run 1, vgg_like_in-40__256__1_out-256_filters-4_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.3, params=27228
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-4_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.3
+Run 1, vgg_like_in-40__256__1_out-256_filters-4_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.3, params=27228
+Run 2, vgg_like_in-40__256__1_out-256_filters-4_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.3, params=27228
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-4_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.3
+Run 2, vgg_like_in-40__256__1_out-256_filters-4_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.3, params=27228
+Run 3, vgg_like_in-40__256__1_out-256_filters-4_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.3, params=27228
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-4_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.3
+Run 3, vgg_like_in-40__256__1_out-256_filters-4_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.3, params=27228
+Run 4, vgg_like_in-40__256__1_out-256_filters-4_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.3, params=27228
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-4_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.3
+Run 4, vgg_like_in-40__256__1_out-256_filters-4_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.3, params=27228
+Run 0, vgg_like_in-40__256__1_out-256_filters-4_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.5, params=27228
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-4_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.5
+Run 0, vgg_like_in-40__256__1_out-256_filters-4_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.5, params=27228
+Run 1, vgg_like_in-40__256__1_out-256_filters-4_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.5, params=27228
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-4_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.5
+Run 1, vgg_like_in-40__256__1_out-256_filters-4_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.5, params=27228
+Run 2, vgg_like_in-40__256__1_out-256_filters-4_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.5, params=27228
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-4_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.5
+Run 2, vgg_like_in-40__256__1_out-256_filters-4_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.5, params=27228
+Run 3, vgg_like_in-40__256__1_out-256_filters-4_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.5, params=27228
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-4_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.5
+Run 3, vgg_like_in-40__256__1_out-256_filters-4_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.5, params=27228
+Run 4, vgg_like_in-40__256__1_out-256_filters-4_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.5, params=27228
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-4_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.5
+Run 4, vgg_like_in-40__256__1_out-256_filters-4_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.5, params=27228
+Run 0, vgg_like_in-40__256__1_out-256_filters-8_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.1, params=89560
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-8_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.1
+Run 0, vgg_like_in-40__256__1_out-256_filters-8_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.1, params=89560
+Run 1, vgg_like_in-40__256__1_out-256_filters-8_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.1, params=89560
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-8_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.1
+Run 1, vgg_like_in-40__256__1_out-256_filters-8_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.1, params=89560
+Run 2, vgg_like_in-40__256__1_out-256_filters-8_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.1, params=89560
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-8_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.1
+Run 2, vgg_like_in-40__256__1_out-256_filters-8_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.1, params=89560
+Run 3, vgg_like_in-40__256__1_out-256_filters-8_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.1, params=89560
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-8_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.1
+Run 3, vgg_like_in-40__256__1_out-256_filters-8_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.1, params=89560
+Run 4, vgg_like_in-40__256__1_out-256_filters-8_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.1, params=89560
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-8_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.1
+Run 4, vgg_like_in-40__256__1_out-256_filters-8_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.1, params=89560
+Run 0, vgg_like_in-40__256__1_out-256_filters-8_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.3, params=89560
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-8_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.3
+Run 0, vgg_like_in-40__256__1_out-256_filters-8_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.3, params=89560
+Run 1, vgg_like_in-40__256__1_out-256_filters-8_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.3, params=89560
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-8_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.3
+Run 1, vgg_like_in-40__256__1_out-256_filters-8_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.3, params=89560
+Run 2, vgg_like_in-40__256__1_out-256_filters-8_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.3, params=89560
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-8_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.3
+Run 2, vgg_like_in-40__256__1_out-256_filters-8_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.3, params=89560
+Run 3, vgg_like_in-40__256__1_out-256_filters-8_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.3, params=89560
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-8_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.3
+Run 3, vgg_like_in-40__256__1_out-256_filters-8_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.3, params=89560
+Run 4, vgg_like_in-40__256__1_out-256_filters-8_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.3, params=89560
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-8_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.3
+Run 4, vgg_like_in-40__256__1_out-256_filters-8_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.3, params=89560
+Run 0, vgg_like_in-40__256__1_out-256_filters-8_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.5, params=89560
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-8_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.5
+Run 0, vgg_like_in-40__256__1_out-256_filters-8_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.5, params=89560
+Run 1, vgg_like_in-40__256__1_out-256_filters-8_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.5, params=89560
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-8_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.5
+Run 1, vgg_like_in-40__256__1_out-256_filters-8_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.5, params=89560
+Run 2, vgg_like_in-40__256__1_out-256_filters-8_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.5, params=89560
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-8_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.5
+Run 2, vgg_like_in-40__256__1_out-256_filters-8_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.5, params=89560
+Run 3, vgg_like_in-40__256__1_out-256_filters-8_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.5, params=89560
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-8_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.5
+Run 3, vgg_like_in-40__256__1_out-256_filters-8_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.5, params=89560
+Run 4, vgg_like_in-40__256__1_out-256_filters-8_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.5, params=89560
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-8_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.5
+Run 4, vgg_like_in-40__256__1_out-256_filters-8_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.5, params=89560
+Run 0, vgg_like_in-40__256__1_out-256_filters-16_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.1, params=320304
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-16_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.1
+Run 0, vgg_like_in-40__256__1_out-256_filters-16_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.1, params=320304
+Run 1, vgg_like_in-40__256__1_out-256_filters-16_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.1, params=320304
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-16_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.1
+Run 1, vgg_like_in-40__256__1_out-256_filters-16_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.1, params=320304
+Run 2, vgg_like_in-40__256__1_out-256_filters-16_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.1, params=320304
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-16_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.1
+Run 2, vgg_like_in-40__256__1_out-256_filters-16_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.1, params=320304
+Run 3, vgg_like_in-40__256__1_out-256_filters-16_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.1, params=320304
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-16_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.1
+Run 3, vgg_like_in-40__256__1_out-256_filters-16_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.1, params=320304
+Run 4, vgg_like_in-40__256__1_out-256_filters-16_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.1, params=320304
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-16_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.1
+Run 4, vgg_like_in-40__256__1_out-256_filters-16_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.1, params=320304
+Run 0, vgg_like_in-40__256__1_out-256_filters-16_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.3, params=320304
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-16_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.3
+Run 0, vgg_like_in-40__256__1_out-256_filters-16_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.3, params=320304
+Run 1, vgg_like_in-40__256__1_out-256_filters-16_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.3, params=320304
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-16_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.3
+Run 1, vgg_like_in-40__256__1_out-256_filters-16_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.3, params=320304
+Run 2, vgg_like_in-40__256__1_out-256_filters-16_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.3, params=320304
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-16_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.3
+Run 2, vgg_like_in-40__256__1_out-256_filters-16_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.3, params=320304
+Run 3, vgg_like_in-40__256__1_out-256_filters-16_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.3, params=320304
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-16_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.3
+Run 3, vgg_like_in-40__256__1_out-256_filters-16_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.3, params=320304
+Run 4, vgg_like_in-40__256__1_out-256_filters-16_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.3, params=320304
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-16_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.3
+Run 4, vgg_like_in-40__256__1_out-256_filters-16_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.3, params=320304
+Run 0, vgg_like_in-40__256__1_out-256_filters-16_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.5, params=320304
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-16_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.5
+Run 0, vgg_like_in-40__256__1_out-256_filters-16_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.5, params=320304
+Run 1, vgg_like_in-40__256__1_out-256_filters-16_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.5, params=320304
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-16_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.5
+Run 1, vgg_like_in-40__256__1_out-256_filters-16_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.5, params=320304
+Run 2, vgg_like_in-40__256__1_out-256_filters-16_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.5, params=320304
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-16_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.5
+Run 2, vgg_like_in-40__256__1_out-256_filters-16_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.5, params=320304
+Run 3, vgg_like_in-40__256__1_out-256_filters-16_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.5, params=320304
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-16_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.5
+Run 3, vgg_like_in-40__256__1_out-256_filters-16_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.5, params=320304
+Run 4, vgg_like_in-40__256__1_out-256_filters-16_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.5, params=320304
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-16_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.5
+Run 4, vgg_like_in-40__256__1_out-256_filters-16_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.5, params=320304
+Run 0, vgg_like_in-40__256__1_out-256_filters-24_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.1, params=692488
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-24_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.1
+Run 0, vgg_like_in-40__256__1_out-256_filters-24_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.1, params=692488
+Run 1, vgg_like_in-40__256__1_out-256_filters-24_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.1, params=692488
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-24_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.1
+Run 1, vgg_like_in-40__256__1_out-256_filters-24_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.1, params=692488
+Run 2, vgg_like_in-40__256__1_out-256_filters-24_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.1, params=692488
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-24_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.1
+Run 2, vgg_like_in-40__256__1_out-256_filters-24_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.1, params=692488
+Run 3, vgg_like_in-40__256__1_out-256_filters-24_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.1, params=692488
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-24_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.1
+Run 3, vgg_like_in-40__256__1_out-256_filters-24_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.1, params=692488
+Run 4, vgg_like_in-40__256__1_out-256_filters-24_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.1, params=692488
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-24_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.1
+Run 4, vgg_like_in-40__256__1_out-256_filters-24_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.1, params=692488
+Run 0, vgg_like_in-40__256__1_out-256_filters-24_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.3, params=692488
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-24_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.3
+Run 0, vgg_like_in-40__256__1_out-256_filters-24_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.3, params=692488
+Run 1, vgg_like_in-40__256__1_out-256_filters-24_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.3, params=692488
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-24_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.3
+Run 1, vgg_like_in-40__256__1_out-256_filters-24_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.3, params=692488
+Run 2, vgg_like_in-40__256__1_out-256_filters-24_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.3, params=692488
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-24_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.3
+Run 2, vgg_like_in-40__256__1_out-256_filters-24_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.3, params=692488
+Run 3, vgg_like_in-40__256__1_out-256_filters-24_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.3, params=692488
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-24_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.3
+Run 3, vgg_like_in-40__256__1_out-256_filters-24_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.3, params=692488
+Run 4, vgg_like_in-40__256__1_out-256_filters-24_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.3, params=692488
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-24_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.3
+Run 4, vgg_like_in-40__256__1_out-256_filters-24_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.3, params=692488
+Run 0, vgg_like_in-40__256__1_out-256_filters-24_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.5, params=692488
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-24_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.5
+Run 0, vgg_like_in-40__256__1_out-256_filters-24_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.5, params=692488
+Run 1, vgg_like_in-40__256__1_out-256_filters-24_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.5, params=692488
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-24_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.5
+Run 1, vgg_like_in-40__256__1_out-256_filters-24_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.5, params=692488
+Run 2, vgg_like_in-40__256__1_out-256_filters-24_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.5, params=692488
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-24_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.5
+Run 2, vgg_like_in-40__256__1_out-256_filters-24_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.5, params=692488
+Run 3, vgg_like_in-40__256__1_out-256_filters-24_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.5, params=692488
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-24_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.5
+Run 3, vgg_like_in-40__256__1_out-256_filters-24_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.5, params=692488
+Run 4, vgg_like_in-40__256__1_out-256_filters-24_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.5, params=692488
+None
+None
+lr=0.001, batch_size=32, epochs=5000, augmenter=<function tempo_augmenter at 0x7f85f45d39d0>, model_name=vgg_like_in-40__256__1_out-256_filters-24_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.5
+Run 4, vgg_like_in-40__256__1_out-256_filters-24_pool_shape-2__2_max-True_filter_shapes-5__1__3__1_dropout-0.5, params=692488

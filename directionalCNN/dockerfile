@@ -1,0 +1,12 @@
+FROM tensorflow/tensorflow:latest-gpu-jupyter
+
+RUN apt-get -y update
+RUN apt-get install -y libsndfile1-dev
+RUN apt-get install -y ffmpeg
+RUn apt-get install -y bc
+
+RUN pip install -U pip
+RUN pip install jupyter_contrib_nbextensions
+RUN pip install h5py
+RUN pip install scikit-learn
+RUN pip install librosa

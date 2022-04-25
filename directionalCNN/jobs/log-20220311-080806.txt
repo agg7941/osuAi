@@ -1,0 +1,29 @@
+Starting train and predict. 2022-03-11 08:08:06.691930
+
+Default GPU: /device:GPU:0
+Creating local copies, if necessary...
+Loaded features for 664 files from ['giantsteps-tempo-dataset/audio/tempo_features.joblib'].
+We assume that we are estimating TEMPO. First feature shape: (40, 2584, 1)
+Loading ground truth...
+Loaded 398 training annotations from train.tsv.
+Loaded 132 validation annotations from val.tsv.
+Number of classes: 256
+Creating generators...
+Creating model...
+Model file ./models/model_shallow_tempo_in-40__256__1_out-256_filters-1_short_shape-1__3_long_shape-1__256_dropout-0.1_run=0.h5 already exists. Skipping training.
+Model file ./models/model_shallow_tempo_in-40__256__1_out-256_filters-1_short_shape-1__3_long_shape-1__256_dropout-0.3_run=0.h5 already exists. Skipping training.
+Model file ./models/model_shallow_tempo_in-40__256__1_out-256_filters-1_short_shape-1__3_long_shape-1__256_dropout-0.5_run=0.h5 already exists. Skipping training.
+Model file ./models/model_shallow_tempo_in-40__256__1_out-256_filters-2_short_shape-1__3_long_shape-1__256_dropout-0.1_run=0.h5 already exists. Skipping training.
+Model file ./models/model_shallow_tempo_in-40__256__1_out-256_filters-2_short_shape-1__3_long_shape-1__256_dropout-0.3_run=0.h5 already exists. Skipping training.
+Model file ./models/model_shallow_tempo_in-40__256__1_out-256_filters-2_short_shape-1__3_long_shape-1__256_dropout-0.5_run=0.h5 already exists. Skipping training.
+Model file ./models/model_shallow_tempo_in-40__256__1_out-256_filters-4_short_shape-1__3_long_shape-1__256_dropout-0.1_run=0.h5 already exists. Skipping training.
+Model file ./models/model_shallow_tempo_in-40__256__1_out-256_filters-4_short_shape-1__3_long_shape-1__256_dropout-0.3_run=0.h5 already exists. Skipping training.
+Model file ./models/model_shallow_tempo_in-40__256__1_out-256_filters-4_short_shape-1__3_long_shape-1__256_dropout-0.5_run=0.h5 already exists. Skipping training.
+Model file ./models/model_shallow_tempo_in-40__256__1_out-256_filters-6_short_shape-1__3_long_shape-1__256_dropout-0.1_run=0.h5 already exists. Skipping training.
+Model file ./models/model_shallow_tempo_in-40__256__1_out-256_filters-6_short_shape-1__3_long_shape-1__256_dropout-0.3_run=0.h5 already exists. Skipping training.
+Model file ./models/model_shallow_tempo_in-40__256__1_out-256_filters-6_short_shape-1__3_long_shape-1__256_dropout-0.5_run=0.h5 already exists. Skipping training.
+Model file ./models/model_shallow_tempo_in-40__256__1_out-256_filters-8_short_shape-1__3_long_shape-1__256_dropout-0.1_run=0.h5 already exists. Skipping training.
+Model file ./models/model_shallow_tempo_in-40__256__1_out-256_filters-8_short_shape-1__3_long_shape-1__256_dropout-0.3_run=0.h5 already exists. Skipping training.
+Model file ./models/model_shallow_tempo_in-40__256__1_out-256_filters-8_short_shape-1__3_long_shape-1__256_dropout-0.5_run=0.h5 already exists. Skipping training.
+Run 0, shallow_tempo_in-40__256__1_out-256_filters-12_short_shape-1__3_long_shape-1__256_dropout-0.1, params=2556976
+None
