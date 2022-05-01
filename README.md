@@ -10,3 +10,8 @@ repo references:
 https://github.com/hendriks73/directional_cnns  
 https://github.com/mjhydri/BeatNet
 
+final versions of jupyter notebooks:  
+https://nbviewer.org/github/agg7941/osuAi/blob/master/osuAi/DBN02.ipynb  
+https://nbviewer.org/github/agg7941/osuAi/blob/master/osuAi/HN08.ipynb  
+https://nbviewer.org/github/agg7941/osuAi/blob/master/osuAi/ASU02.ipynb  
+https://nbviewer.org/github/agg7941/osuAi/blob/master/osuAi/VN09.ipynb  
